@@ -225,13 +225,17 @@ Functions can be used to create named blocks of code that can be executed/reused
 **_What is the difference between `console.log` and `return`?_**
 
 ```
-REPLACE THIS WITH YOUR ANSWER
+'console.log' will output information to the terminal.
+
+'return' returns the output of a function. The value of the output returned can be assigned as the value of a variable for later use.
 ```
 
 **_What's the difference between defining and calling a function?_**
 
 ```
-REPLACE THIS WITH YOUR ANSWER
+Defining a function is the process of creating a function. Naming the function, naming the parameters, writing the code that the function will excecute, etc.
+
+Calling/invoking a function is the process of using a function. e.g. 'let sum = add(2, 5)' invokes the 'add' function, uses 2 and 5 as arguments, and assigns the value to a variable called 'sum'.
 ```
 
 ### B.2. Describe these data types.
@@ -241,25 +245,25 @@ Write a short description of the following data types:
 **_String_**
 
 ```
-REPLACE THIS WITH YOUR ANSWER
+The string data type consists of a string of characters surrounded by "", '', or ``.
 ```
 
 **_Number_**
 
 ```
-REPLACE THIS WITH YOUR ANSWER
+The number data type consists of numbers. These numbers can be used for mathematical operations.
 ```
 
 **_Boolean_**
 
 ```
-REPLACE THIS WITH YOUR ANSWER
+The boolean data type has two values: true, or false (case sensitive)
 ```
 
 **_Array_**
 
 ```
-REPLACE THIS WITH YOUR ANSWER
+The array data type is essentially a list that can contain multiple strings, numbers, booleans, and other arrays.
 ```
 
 ### B.3. Trace the value of `x`
@@ -282,7 +286,7 @@ completed for you.
 
 ```
 Initial values: y = 0, x = 5
-1:              y = 1, x = ??
-2:              y = 2, x = ??
-3:              y = 3, x = ??
+1:              y = 1, x = 10
+2:              y = 2, x = 15
+3:              y = 3, x = 15
 ```
